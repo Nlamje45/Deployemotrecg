@@ -5,11 +5,11 @@ import numpy as np
 import os
 import tensorflow as tf
 from tensorflow import keras
-from keras.models import Model, model_from_json
+from tensorflow.keras.models import Model, model_from_json
 import time
 from bokeh.models.widgets import Div
 import streamlit as st
-from keras.preprocessing.image import img_to_array
+from tensorflow.keras.preprocessing.image import img_to_array
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
 from PIL import Image,ImageEnhance
 
