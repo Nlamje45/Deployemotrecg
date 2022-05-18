@@ -2,7 +2,7 @@ streamlit
 numpy
 opencv-python-headless
 av
-tensorflow
+tensorflow==1.15.0
 Pillow
 streamlit_webrtc==0.6.3
 pillow
